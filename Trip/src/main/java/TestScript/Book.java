@@ -31,6 +31,7 @@ public class Book {
 		driver.findElement(By.xpath("//input[@id='search_key'])")).sendKeys("Ban");
 		
 		driver.findElement(By.xpath("//*[@id='rh_content']/div/section[1]/div/div[2]/div/div[2]/div/div/ul/li[1]/a/strong/small")).click();
+		driver.quit();
 		
 		
 	}
